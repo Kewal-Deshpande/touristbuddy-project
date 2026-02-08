@@ -10,3 +10,4 @@ dotenv
 polyline
 scikit-learn
 twilio
+gunicorn
