@@ -1,0 +1,53 @@
+.RouteSelection {
+    position: relative;
+}
+
+.RouteSelection h2 {
+    margin: 0;
+    margin-top: 10px 0;
+    text-align: center;
+}
+
+.RouteSelection .all-routes {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.RouteSelection .all-routes .route-card {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    gap: 20px;
+}
+
+.RouteSelection .all-routes .route-card .route-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.RouteSelection .all-routes .route-card .route-info h3 ,
+.RouteSelection .all-routes .route-card .route-info p {
+    margin: 0;
+}
+
+.RouteSelection .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.RouteSelection .results {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}

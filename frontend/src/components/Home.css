@@ -1,0 +1,67 @@
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.home .input_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.home .input_section .input_row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.home .input_section .input_row img{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 4px;
+    width: 30px;
+}
+
+.home .input_section .input_row .input_field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.home .input_section .input_row .alter_icon {
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .input_section .input_row .input_field .inputs {
+    width: 300px;
+}
+
+.home .input_section .btn_section {
+    margin-top: 20px;
+}
+
+.home .input_section .sos_section {
+    margin-top: 20px;
+}
+
+
+.home .map_section {
+    padding: 20px;
+}
+
+.home .map_section #map {
+    width: 100%;
+    height: 500px;
+}
+
+
+

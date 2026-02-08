@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Python virtual environment
+venv/
+backend/venv/
+
+# Environment variables (VERY IMPORTANT)
+.env
+backend/.env
+
+# Firebase and secret json files (VERY IMPORTANT)
+backend/*.json
+
+# IGNORE TEST FILE WITH TWILIO SECRET
+backend/test.py
+
+# Python cache
+__pycache__/
+backend/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Build folders
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,12 @@
+flask
+firebase-admin
+geopy
+requests
+flask-cors
+pandas
+googlemaps
+joblib
+dotenv
+polyline
+scikit-learn
+twilio

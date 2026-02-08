@@ -1,0 +1,71 @@
+/* ReportCrime.css */
+
+/* Container */
+.report-crime-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.report-crime-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Form group spacing */
+.report-crime-container .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Labels */
+.report-crime-container label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+/* Inputs, Selects & Textareas */
+.report-crime-container input[type="text"],
+.report-crime-container input[type="file"],
+.report-crime-container select,
+.report-crime-container textarea {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.report-crime-container input:focus,
+.report-crime-container select:focus,
+.report-crime-container textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+/* Button */
+.report-crime-container button {
+  width: 100%;
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  border: none;
+}
+
+.report-crime-container button:hover {
+  background-color: #2563eb;
+}
