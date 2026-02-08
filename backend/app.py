@@ -14,6 +14,10 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+@app.route("/")
+def home():
+    return "TouristBuddy Backend is Running Successfully"
+
 
 # Load credentials from .env
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
